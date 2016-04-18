@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:weightSum="1">
+
+	<ImageView android:src="@drawable/logo" android:layout_width="wrap_content"
+		android:id="@+id/imageView1" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:layout_marginTop="48dp"></ImageView>
+	<ImageButton android:id="@+id/myReminder" android:src="@drawable/myreminderbutton"
+		android:layout_width="120dp" android:layout_height="80dp"
+		android:layout_below="@+id/imageView1"
+		android:layout_alignParentRight="true" android:layout_marginRight="26dp"
+		android:layout_marginTop="50dp"></ImageButton>
+	<ImageButton android:id="@+id/todayNews" android:src="@drawable/todaynews"
+		android:layout_width="120dp" android:layout_height="80dp"
+		android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true"
+		android:layout_marginLeft="32dp" android:layout_marginTop="50dp"></ImageButton>
+	<ImageButton android:src="@drawable/exit" android:id="@+id/close"
+		android:layout_width="120dp" android:layout_height="80dp"
+		android:layout_below="@+id/myReminder" android:layout_alignLeft="@+id/myReminder"
+		android:layout_marginTop="20dp"></ImageButton>
+	<ImageButton android:src="@drawable/credit" android:id="@+id/credit"
+		android:layout_width="120dp" android:layout_height="80dp"
+		android:layout_below="@+id/todayNews" android:layout_alignLeft="@+id/todayNews"
+		android:layout_marginTop="20dp"></ImageButton>
+
+</RelativeLayout>
